@@ -3,12 +3,12 @@
 
     <item
         is-multidex="true"
-        jar="/Users/cameronshotter/.android/build-cache/773c021dbc11ce5bddf4e577cd66e609deb197fd/output/jars/classes.jar"
+        jar="/Users/cameronshotter/.gradle/caches/modules-2/files-2.1/com.parse/parse-android/1.13.0/58a7d54b6a4f28be11f0cecec93097eddf473e6f/parse-android-1.13.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.0"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/classes_028a778d30c71334b9a515e2da2114b8bb5d540f/classes.dex" />
+        revision="25.0.2"
+        sha1="58a7d54b6a4f28be11f0cecec93097eddf473e6f">
+        <dex dex="/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/parse-android-1.13.0_4731cc6bcb51f295eafe0945b592286e4b60b1ab/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -21,42 +21,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/cameronshotter/.android/build-cache/d45a32185c683acb3362ac16f4eb07bad697e669/output/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_5dcd4db6305b186af1d7b72024d24707717ea111/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/cameronshotter/.android/build-cache/af5effa1c5409feb19817f538f2545566ef1c7ad/output/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_73c95afcaaff234f5bf9d271e995b4ed08fd2ae3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/cameronshotter/.android/build-cache/afa6171c2d3ded728dd25c71c37ecbf69ea05da0/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6bd8d40477b70f90adabc1c634374f1ddabe681c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/cameronshotter/.android/build-cache/0f2afc48c6e41e864a5846969f4d4035e2f9e48c/output/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_ab17b2a08e9d33221def5730f0130f57626f008e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/cameronshotter/.android/build-cache/b9be5e148b663b191fa0965f52ac172e1e95bf90/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -66,21 +30,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/cameronshotter/.android/build-cache/42ea466c742b69fb18cddba94db68c0eafd9c6f3/output/jars/classes.jar"
+        jar="/Users/cameronshotter/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.0"
-        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bf0710295da99458948e9dfe027dda4b2904b05f/classes.dex" />
+        revision="25.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_3741503dc2cb8dee0abd80562cfdcda4ed0a09fe/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/cameronshotter/.android/build-cache/af5effa1c5409feb19817f538f2545566ef1c7ad/output/jars/classes.jar"
+        jar="/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.0"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/classes_576433a9d67bfa5e9e4872519f516cc2dc8c3942/classes.dex" />
+        revision="25.0.2"
+        sha1="71766d58a8aa590a88c47bb8e8fd3ee9636a7592">
+        <dex dex="/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_aa58fd5ef0c54ed90fa807dd6f5954b1bc541c7a/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -90,15 +54,6 @@
         revision="25.0.0"
         sha1="4c2da6943c602422360a154a4aa3e08b0c68943f">
         <dex dex="/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_aa58fd5ef0c54ed90fa807dd6f5954b1bc541c7a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/cameronshotter/.android/build-cache/773c021dbc11ce5bddf4e577cd66e609deb197fd/output/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_7870389c20fe9f087c808d19a63c660fb2506d25/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -120,21 +75,21 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_4c6d2c2d1ae090339f49a883203a83a65b0e6f32/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/cameronshotter/.android/build-cache/07257b94b7c60998e283866fc15b71b538ea8c11/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="19696dc358ac668e341f28c41e3387d61ccdb81d">
         <dex dex="/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/classes_720d943b6998d794a7eef9da27cb468c0a6a5e8d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/cameronshotter/.android/build-cache/0f2afc48c6e41e864a5846969f4d4035e2f9e48c/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1234158f449f5425112d0a89ef4747d55f5c5ea7/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -147,66 +102,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/cameronshotter/.android/build-cache/d45a32185c683acb3362ac16f4eb07bad697e669/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/classes_070dc78e45cca4756fadfbb4a2cc39367346bfb7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/cameronshotter/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_287819ac2674581d74745595b09f07163a96e2dd/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/cameronshotter/.android/build-cache/b6c6168748032753a2d44a6659c776de99ccec66/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d7d7d50039807587b2d7c9def741c1056c5d96ea/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/cameronshotter/.android/build-cache/a77dc1287e4c05b3d4208953d253dbbf8ed507ee/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/classes_54942262768ea1d30a970778c12aa80da7c8ccef/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/cameronshotter/.gradle/caches/modules-2/files-2.1/com.parse/parse-android/1.13.0/58a7d54b6a4f28be11f0cecec93097eddf473e6f/parse-android-1.13.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="58a7d54b6a4f28be11f0cecec93097eddf473e6f">
         <dex dex="/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/parse-android-1.13.0_4731cc6bcb51f295eafe0945b592286e4b60b1ab/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/cameronshotter/.android/build-cache/ad40c77130c20c0995e1a8eede68bb0f4a4a3390/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/classes_20d5a1bdc71763260a5851bc31f6b99fe7ed15ca/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/cameronshotter/.android/build-cache/a77dc1287e4c05b3d4208953d253dbbf8ed507ee/output/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_6156b39b9f7ee68e6337e39ad109463031d1e829/classes.dex" />
     </item>
 
 </items>

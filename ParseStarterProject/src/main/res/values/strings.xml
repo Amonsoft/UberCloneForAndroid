@@ -15,4 +15,9 @@
     <string name="hello_world">Hello World!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_your_location">YourLocation</string>
+    <string name="request_uber">Request Uber</string>
+    <string name="uberlogo">uberlogo</string>
+    <string name="driver">Driver</string>
+    <string name="rider">Rider</string>
+    <string name="get_started">Get Started</string>
 </resources>

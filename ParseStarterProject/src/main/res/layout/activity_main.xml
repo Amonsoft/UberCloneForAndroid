@@ -25,7 +25,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:background="@android:color/white"
-        android:contentDescription="uberlogo"
+        android:contentDescription="@string/uberlogo"
         android:src="@drawable/uberlogo"
         android:layout_marginTop="40dp" />
 
@@ -47,7 +47,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginTop="79dp"
-        android:text="Driver"
+        android:text="@string/driver"
         android:textSize="24sp"
         android:textColor="#373737"/>
 
@@ -61,7 +61,7 @@
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="79dp"
-        android:text="Rider"
+        android:text="@string/rider"
         android:textSize="24sp"
         android:textColor="#373737"/>
 
@@ -73,6 +73,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
         android:onClick="getStarted"
-        android:text="Get Started" />
+        android:text="@string/get_started" />
 
 </RelativeLayout>

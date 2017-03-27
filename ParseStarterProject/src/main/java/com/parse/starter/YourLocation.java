@@ -13,6 +13,9 @@ import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -20,6 +23,13 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.parse.FindCallback;
+import com.parse.ParseACL;
+import com.parse.ParseException;
+import com.parse.ParseObject;
+import com.parse.ParseQuery;
+import com.parse.ParseUser;
+import com.parse.SaveCallback;
 
 import java.io.IOException;
 import java.util.List;
@@ -35,6 +45,10 @@ public class YourLocation extends FragmentActivity implements OnMapReadyCallback
     Double lat;
     Double lng;
 
+    TextView infoTextView;
+    Button requestUberButton;
+    Boolean requestActive = false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,6 +59,9 @@ public class YourLocation extends FragmentActivity implements OnMapReadyCallback
         mapFragment.getMapAsync(this);
 
         getCurrentLocation();
+
+        infoTextView = (TextView) findViewById(R.id.infoTextView);
+        requestUberButton = (Button) findViewById(R.id.requestUber);
 
 
     }
@@ -144,4 +161,69 @@ public class YourLocation extends FragmentActivity implements OnMapReadyCallback
     public void onProviderDisabled(String provider) {
 
     }
+
+
+    public void requestUber(View view) {
+
+        if (!requestActive) {
+
+            final ParseObject request = new ParseObject("Requests");
+
+            request.put("riderUsername", ParseUser.getCurrentUser().getUsername());
+
+            ParseACL parseACL = new ParseACL();
+            parseACL.setPublicWriteAccess(true);
+            parseACL.setPublicReadAccess(true);
+            request.setACL(parseACL);
+
+            request.saveInBackground(new SaveCallback() {
+                @Override
+                public void done(ParseException e) {
+
+                    if (e == null) {
+
+                        infoTextView.setText("Finding Uber Driver...");
+                        requestUberButton.setText("Cancel Uber");
+                        requestActive = true;
+
+                    }
+
+                }
+            });
+
+        } else {
+
+            ParseQuery<ParseObject> query = new ParseQuery<>("Requests");
+
+            query.whereEqualTo("riderUsername", ParseUser.getCurrentUser().getUsername());
+
+            query.findInBackground(new FindCallback<ParseObject>() {
+                @Override
+                public void done(List<ParseObject> objects, ParseException e) {
+
+                    if (e == null) {
+
+                        if (objects.size() > 0) {
+
+                            for (ParseObject object : objects) {
+
+                                object.deleteInBackground();
+
+                            }
+
+                        }
+
+                    }
+
+                }
+            });
+
+            infoTextView.setText("Uber Cancelled");
+            requestUberButton.setText("Request Uber");
+            requestActive = false;
+
+        }
+
+    }
+
 }
