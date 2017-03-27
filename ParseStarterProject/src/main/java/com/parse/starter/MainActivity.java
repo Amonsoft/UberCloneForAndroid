@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ParseUser.getCurrentUser().put("riderOrDriver", "driver");
+        ParseUser.getCurrentUser().put("riderOrDriver", "rider");
 
         riderOrDriverSwitch = (Switch)findViewById(R.id.riderOrDriverSwitch);
 

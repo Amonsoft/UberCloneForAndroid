@@ -21,6 +21,7 @@ import com.parse.ParseException;
 import com.parse.ParseGeoPoint;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
+import com.parse.ParseUser;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -91,6 +92,10 @@ public class ViewRequests extends AppCompatActivity implements LocationListener 
     public void updateUserLocation() {
 
         final ParseGeoPoint userLocation = new ParseGeoPoint(lat, lng);
+
+        ParseUser.getCurrentUser().put("location", userLocation);
+        ParseUser.getCurrentUser().saveInBackground();
+
         ParseQuery<ParseObject> query = ParseQuery.getQuery("Requests");
         query.whereDoesNotExist("driverUsername");
         query.whereNear("riderLocation", userLocation);
