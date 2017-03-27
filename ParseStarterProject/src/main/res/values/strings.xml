@@ -20,4 +20,8 @@
     <string name="driver">Driver</string>
     <string name="rider">Rider</string>
     <string name="get_started">Get Started</string>
+    <string name="title_activity_view_requests">ViewRequests</string>
+    <string name="title_activity_view_rider_location">View Rider Location</string>
+    <string name="accept_request">Accept Request</string>
+    <string name="back">Back</string>
 </resources>

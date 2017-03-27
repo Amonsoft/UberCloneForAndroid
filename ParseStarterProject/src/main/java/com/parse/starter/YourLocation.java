@@ -26,6 +26,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 import com.parse.FindCallback;
 import com.parse.ParseACL;
 import com.parse.ParseException;
+import com.parse.ParseGeoPoint;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
@@ -58,15 +59,6 @@ public class YourLocation extends FragmentActivity implements OnMapReadyCallback
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
 
-        getCurrentLocation();
-
-        infoTextView = (TextView) findViewById(R.id.infoTextView);
-        requestUberButton = (Button) findViewById(R.id.requestUber);
-
-
-    }
-
-    public void getCurrentLocation() {
         locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
 
         provider = locationManager.getBestProvider(new Criteria(), false);
@@ -75,6 +67,53 @@ public class YourLocation extends FragmentActivity implements OnMapReadyCallback
             return;
         }
         location = locationManager.getLastKnownLocation(provider);
+
+        infoTextView = (TextView) findViewById(R.id.infoTextView);
+        requestUberButton = (Button) findViewById(R.id.requestUber);
+
+
+    }
+
+    public void updateUserLocation(Location location) {
+
+        lat = location.getLatitude();
+        lng = location.getLongitude();
+
+        mMap.addMarker(new MarkerOptions().position(new LatLng(lat, lng)).title("Your location"));
+        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(lat, lng), 10));
+
+        if (requestActive) {
+
+            final ParseGeoPoint userLocation = new ParseGeoPoint(lat, lng);
+
+            ParseQuery<ParseObject> query = new ParseQuery<>("Requests");
+
+            query.whereEqualTo("riderUsername", ParseUser.getCurrentUser().getUsername());
+
+            query.findInBackground(new FindCallback<ParseObject>() {
+                @Override
+                public void done(List<ParseObject> objects, ParseException e) {
+
+                    if (e == null) {
+
+                        if (objects.size() > 0) {
+
+                            for (ParseObject object : objects) {
+
+                                object.put("riderLocation", userLocation);
+                                object.saveInBackground();
+
+                            }
+
+                        }
+
+                    }
+
+                }
+            });
+
+        }
+
     }
 
 
@@ -83,13 +122,10 @@ public class YourLocation extends FragmentActivity implements OnMapReadyCallback
         mMap = googleMap;
 
 
-        LatLng testLocation = new LatLng(0, 0);
-        mMap.addMarker(new MarkerOptions().position(testLocation).title("Test Marker"));
-        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(testLocation, 12));
+        if (location == null) {
+            updateUserLocation(location);
 
-        if (location != null) {
-
-            Log.i("Location Info", "Location acheived!");
+        } else {
             onLocationChanged(location);
         }
     }
@@ -117,15 +153,30 @@ public class YourLocation extends FragmentActivity implements OnMapReadyCallback
         lat = location.getLatitude();
         lng = location.getLongitude();
 
-        Log.i("Location lat", lat.toString());
-        Log.i("Location lng", lng.toString());
-
         mMap.clear();
+        updateUserLocation(location);
 
-        mMap.addMarker(new MarkerOptions().position(new LatLng(lat, lng)).title("Your location"));
 
-        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(lat, lng), 12));
+        getAddress();
 
+    }
+
+    @Override
+    public void onStatusChanged(String provider, int status, Bundle extras) {
+
+    }
+
+    @Override
+    public void onProviderEnabled(String provider) {
+
+    }
+
+    @Override
+    public void onProviderDisabled(String provider) {
+
+    }
+
+    public void getAddress() {
 
         Geocoder geocoder = new Geocoder(getApplicationContext(), Locale.getDefault());
 
@@ -144,21 +195,6 @@ public class YourLocation extends FragmentActivity implements OnMapReadyCallback
             e.printStackTrace();
 
         }
-
-    }
-
-    @Override
-    public void onStatusChanged(String provider, int status, Bundle extras) {
-
-    }
-
-    @Override
-    public void onProviderEnabled(String provider) {
-
-    }
-
-    @Override
-    public void onProviderDisabled(String provider) {
 
     }
 
@@ -181,6 +217,8 @@ public class YourLocation extends FragmentActivity implements OnMapReadyCallback
                 public void done(ParseException e) {
 
                     if (e == null) {
+
+                        updateUserLocation(location);
 
                         infoTextView.setText("Finding Uber Driver...");
                         requestUberButton.setText("Cancel Uber");

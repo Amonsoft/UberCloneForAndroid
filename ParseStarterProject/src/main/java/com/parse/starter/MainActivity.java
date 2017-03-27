@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void done(ParseException e) {
                 if (e == null) {
-
+                    Log.i("CurrentUser", "Current user logged and redirected");
                     redirectUser();
 
                 }
@@ -92,6 +92,11 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(getApplicationContext(), YourLocation.class);
             startActivity(intent);
 
+        }  else {
+
+            Intent intent = new Intent(getApplicationContext(), ViewRequests.class);
+            startActivity(intent);
+
         }
 
     }
@@ -100,6 +105,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        ParseUser.getCurrentUser().put("riderOrDriver", "driver");
 
         riderOrDriverSwitch = (Switch)findViewById(R.id.riderOrDriverSwitch);
 

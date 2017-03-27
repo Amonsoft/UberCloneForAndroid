@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow_custom.xml",
-        "source": "/Users/cameronshotter/.android/build-cache/b6c6168748032753a2d44a6659c776de99ccec66/output/res/layout/notification_template_big_media_narrow_custom.xml"
-    },
-    {
         "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
         "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
@@ -20,12 +16,12 @@
         "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/layout/abc_action_bar_title_item.xml"
     },
     {
-        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
-        "source": "/Users/cameronshotter/.android/build-cache/b6c6168748032753a2d44a6659c776de99ccec66/output/res/layout/notification_template_big_media.xml"
-    },
-    {
         "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/activity_main.xml",
         "source": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/Users/cameronshotter/.android/build-cache/c079e7d20f88d1fbc8f9d3160f1d52a70a471ccd/output/res/layout/design_navigation_menu.xml"
     },
     {
         "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
@@ -40,24 +36,20 @@
         "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/layout/abc_action_bar_up_container.xml"
     },
     {
-        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
-        "source": "/Users/cameronshotter/.android/build-cache/b6c6168748032753a2d44a6659c776de99ccec66/output/res/layout/notification_template_big_media_narrow.xml"
+        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
         "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/layout/notification_template_part_time.xml"
     },
     {
-        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
-        "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/layout/abc_alert_dialog_button_bar_material.xml"
+        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/design_text_input_password_icon.xml",
+        "source": "/Users/cameronshotter/.android/build-cache/c079e7d20f88d1fbc8f9d3160f1d52a70a471ccd/output/res/layout/design_text_input_password_icon.xml"
     },
     {
         "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
         "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/layout/abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
-        "source": "/Users/cameronshotter/.android/build-cache/b6c6168748032753a2d44a6659c776de99ccec66/output/res/layout/notification_media_action.xml"
     },
     {
         "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
@@ -68,8 +60,20 @@
         "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/layout/abc_list_menu_item_layout.xml"
     },
     {
+        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
+        "source": "/Users/cameronshotter/.android/build-cache/c079e7d20f88d1fbc8f9d3160f1d52a70a471ccd/output/res/layout/design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
+        "source": "/Users/cameronshotter/.android/build-cache/c079e7d20f88d1fbc8f9d3160f1d52a70a471ccd/output/res/layout/design_navigation_item_header.xml"
+    },
+    {
         "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
         "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/activity_view_rider_location.xml",
+        "source": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/res/layout/activity_view_rider_location.xml"
     },
     {
         "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
@@ -82,6 +86,10 @@
     {
         "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
         "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
+        "source": "/Users/cameronshotter/.android/build-cache/c079e7d20f88d1fbc8f9d3160f1d52a70a471ccd/output/res/layout/design_layout_tab_icon.xml"
     },
     {
         "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
@@ -108,10 +116,6 @@
         "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
-        "source": "/Users/cameronshotter/.android/build-cache/b6c6168748032753a2d44a6659c776de99ccec66/output/res/layout/notification_media_cancel_action.xml"
-    },
-    {
         "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/notification_template_custom_big.xml",
         "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/layout/notification_template_custom_big.xml"
     },
@@ -128,8 +132,12 @@
         "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/layout/abc_action_mode_bar.xml"
     },
     {
-        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/notification_template_big_media_custom.xml",
-        "source": "/Users/cameronshotter/.android/build-cache/b6c6168748032753a2d44a6659c776de99ccec66/output/res/layout/notification_template_big_media_custom.xml"
+        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
+        "source": "/Users/cameronshotter/.android/build-cache/c079e7d20f88d1fbc8f9d3160f1d52a70a471ccd/output/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/Users/cameronshotter/.android/build-cache/c079e7d20f88d1fbc8f9d3160f1d52a70a471ccd/output/res/layout/design_navigation_item_separator.xml"
     },
     {
         "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/notification_action.xml",
@@ -144,6 +152,14 @@
         "source": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/res/layout/activity_your_location.xml"
     },
     {
+        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/design_bottom_navigation_item.xml",
+        "source": "/Users/cameronshotter/.android/build-cache/c079e7d20f88d1fbc8f9d3160f1d52a70a471ccd/output/res/layout/design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/Users/cameronshotter/.android/build-cache/c079e7d20f88d1fbc8f9d3160f1d52a70a471ccd/output/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
         "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
         "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/layout/abc_select_dialog_material.xml"
     },
@@ -156,8 +172,16 @@
         "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
+        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/Users/cameronshotter/.android/build-cache/c079e7d20f88d1fbc8f9d3160f1d52a70a471ccd/output/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
         "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
         "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
+        "source": "/Users/cameronshotter/.android/build-cache/c079e7d20f88d1fbc8f9d3160f1d52a70a471ccd/output/res/layout/design_menu_item_action_area.xml"
     },
     {
         "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
@@ -172,8 +196,16 @@
         "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/layout/abc_dialog_title_material.xml"
     },
     {
+        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/activity_view_requests.xml",
+        "source": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/res/layout/activity_view_requests.xml"
+    },
+    {
         "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
         "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
+        "source": "/Users/cameronshotter/.android/build-cache/c079e7d20f88d1fbc8f9d3160f1d52a70a471ccd/output/res/layout/design_layout_tab_text.xml"
     },
     {
         "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
@@ -184,8 +216,16 @@
         "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/layout/abc_list_menu_item_icon.xml"
     },
     {
+        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
+        "source": "/Users/cameronshotter/.android/build-cache/c079e7d20f88d1fbc8f9d3160f1d52a70a471ccd/output/res/layout/design_navigation_item.xml"
+    },
+    {
         "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
         "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
+        "source": "/Users/cameronshotter/.android/build-cache/c079e7d20f88d1fbc8f9d3160f1d52a70a471ccd/output/res/layout/design_layout_snackbar.xml"
     },
     {
         "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",

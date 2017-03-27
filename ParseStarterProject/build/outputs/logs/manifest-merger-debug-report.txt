@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:9:1-64:12
+ADDED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:9:1-71:12
 	package
 		ADDED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:10:5-32
 		INJECTED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml
@@ -24,15 +24,15 @@ MERGED from [com.google.android.gms:play-services-maps:10.2.1] /Users/cameronsho
 	android:name
 		ADDED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:13:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:14:5-80
+ADDED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:14:5-81
 	android:name
 		ADDED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:14:22-78
 uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
-ADDED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:15:5-97
+ADDED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:15:5-98
 	android:name
 		ADDED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:15:22-95
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:22:5-80
+ADDED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:22:5-81
 	android:name
 		ADDED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:22:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
@@ -40,14 +40,17 @@ ADDED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseSta
 	android:name
 		ADDED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:23:22-76
 application
-ADDED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:25:5-62:19
-MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/cameronshotter/.android/build-cache/8da4644e590535cb76d8a21f2432a72e80dcc451/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/cameronshotter/.android/build-cache/2df4f5818dc00bd1657c79a4b184fb7f38c29593/output/AndroidManifest.xml:26:5-20
+ADDED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:25:5-69:19
 MERGED from [com.google.android.gms:play-services-maps:10.2.1] /Users/cameronshotter/.android/build-cache/d60049a158676bc62170731e44300a6ec40b7902/output/AndroidManifest.xml:24:5-19
 MERGED from [com.google.android.gms:play-services-base:10.2.1] /Users/cameronshotter/.android/build-cache/07257b94b7c60998e283866fc15b71b538ea8c11/output/AndroidManifest.xml:18:5-20:19
 MERGED from [com.google.android.gms:play-services-tasks:10.2.1] /Users/cameronshotter/.android/build-cache/b9be5e148b663b191fa0965f52ac172e1e95bf90/output/AndroidManifest.xml:4:5-19
 MERGED from [com.google.android.gms:play-services-basement:10.2.1] /Users/cameronshotter/.android/build-cache/cadec14151df4d07251dbcb27ec43bd7c08c460b/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/cameronshotter/.android/build-cache/a8d40dd4213ab4af5560fb5bd85de6f68b8ec93d/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.0] /Users/cameronshotter/.android/build-cache/c079e7d20f88d1fbc8f9d3160f1d52a70a471ccd/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/cameronshotter/.android/build-cache/8da4644e590535cb76d8a21f2432a72e80dcc451/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/cameronshotter/.android/build-cache/2df4f5818dc00bd1657c79a4b184fb7f38c29593/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.0] /Users/cameronshotter/.android/build-cache/4e0cd23969ce2805c63daef4c78795e1d2e55bb8/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-v4:25.3.0] /Users/cameronshotter/.android/build-cache/a357d3529d6e9240a0de8525196a27b7e94b34b5/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.0] /Users/cameronshotter/.android/build-cache/28424723df9a52f997124c40e9c562cbca0cf4d1/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:25.3.0] /Users/cameronshotter/.android/build-cache/6746ffa59bb3a7e7d9167a3fa402a3adcaed011c/output/AndroidManifest.xml:29:5-20
@@ -99,20 +102,38 @@ ADDED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseSta
 	android:name
 		ADDED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:56:13-58
 activity#com.parse.starter.YourLocation
-ADDED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:59:9-61:77
+ADDED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:59:9-61:68
 	android:label
 		ADDED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:61:13-65
 	android:name
 		ADDED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:60:13-41
+activity#com.parse.starter.ViewRequests
+ADDED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:62:9-65:59
+	android:label
+		ADDED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:64:13-65
+	android:theme
+		ADDED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:65:13-56
+	android:name
+		ADDED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:63:13-41
+activity#com.parse.starter.ViewRiderLocation
+ADDED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:66:9-68:83
+	android:label
+		ADDED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:68:13-71
+	android:name
+		ADDED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:67:13-46
 uses-sdk
 INJECTED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/cameronshotter/.android/build-cache/8da4644e590535cb76d8a21f2432a72e80dcc451/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/cameronshotter/.android/build-cache/2df4f5818dc00bd1657c79a4b184fb7f38c29593/output/AndroidManifest.xml:20:5-43
 MERGED from [com.google.android.gms:play-services-maps:10.2.1] /Users/cameronshotter/.android/build-cache/d60049a158676bc62170731e44300a6ec40b7902/output/AndroidManifest.xml:23:5-43
 MERGED from [com.google.android.gms:play-services-base:10.2.1] /Users/cameronshotter/.android/build-cache/07257b94b7c60998e283866fc15b71b538ea8c11/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-tasks:10.2.1] /Users/cameronshotter/.android/build-cache/b9be5e148b663b191fa0965f52ac172e1e95bf90/output/AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-basement:10.2.1] /Users/cameronshotter/.android/build-cache/cadec14151df4d07251dbcb27ec43bd7c08c460b/output/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/cameronshotter/.android/build-cache/a8d40dd4213ab4af5560fb5bd85de6f68b8ec93d/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.3.0] /Users/cameronshotter/.android/build-cache/c079e7d20f88d1fbc8f9d3160f1d52a70a471ccd/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/cameronshotter/.android/build-cache/8da4644e590535cb76d8a21f2432a72e80dcc451/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/cameronshotter/.android/build-cache/2df4f5818dc00bd1657c79a4b184fb7f38c29593/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.0] /Users/cameronshotter/.android/build-cache/eccc01a67573dc53d1584e7e8281e75033b8b312/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.0] /Users/cameronshotter/.android/build-cache/4e0cd23969ce2805c63daef4c78795e1d2e55bb8/output/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:25.3.0] /Users/cameronshotter/.android/build-cache/a357d3529d6e9240a0de8525196a27b7e94b34b5/output/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.3.0] /Users/cameronshotter/.android/build-cache/28424723df9a52f997124c40e9c562cbca0cf4d1/output/AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-media-compat:25.3.0] /Users/cameronshotter/.android/build-cache/6746ffa59bb3a7e7d9167a3fa402a3adcaed011c/output/AndroidManifest.xml:21:5-23:63
@@ -120,27 +141,13 @@ MERGED from [com.android.support:support-core-ui:25.3.0] /Users/cameronshotter/.
 MERGED from [com.android.support:support-core-utils:25.3.0] /Users/cameronshotter/.android/build-cache/da55045de8f15df433a6cb04e28ac1e8539f8bc3/output/AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:support-compat:25.3.0] /Users/cameronshotter/.android/build-cache/7ddd61c4daa820b78e371ed30fe94fbffa55fd58/output/AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.3.0] /Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:design:25.3.0] /Users/cameronshotter/.android/build-cache/c079e7d20f88d1fbc8f9d3160f1d52a70a471ccd/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml
 		INJECTED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml
 		INJECTED from /Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml
-meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:25.3.0] /Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/cameronshotter/.android/build-cache/8da4644e590535cb76d8a21f2432a72e80dcc451/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/cameronshotter/.android/build-cache/2df4f5818dc00bd1657c79a4b184fb7f38c29593/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.0] /Users/cameronshotter/.android/build-cache/a357d3529d6e9240a0de8525196a27b7e94b34b5/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.0] /Users/cameronshotter/.android/build-cache/28424723df9a52f997124c40e9c562cbca0cf4d1/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.0] /Users/cameronshotter/.android/build-cache/6746ffa59bb3a7e7d9167a3fa402a3adcaed011c/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.0] /Users/cameronshotter/.android/build-cache/a20d5d2cce4b47ae514efe2c1081a9ea48c6c1bd/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.0] /Users/cameronshotter/.android/build-cache/da55045de8f15df433a6cb04e28ac1e8539f8bc3/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.0] /Users/cameronshotter/.android/build-cache/7ddd61c4daa820b78e371ed30fe94fbffa55fd58/output/AndroidManifest.xml:25:5-27:34
-	android:value
-		ADDED from [com.android.support:appcompat-v7:25.3.0] /Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/AndroidManifest.xml:27:9-31
-	android:name
-		ADDED from [com.android.support:appcompat-v7:25.3.0] /Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/AndroidManifest.xml:26:9-47
 uses-feature#0x00020000
 ADDED from [com.google.android.gms:play-services-maps:10.2.1] /Users/cameronshotter/.android/build-cache/d60049a158676bc62170731e44300a6ec40b7902/output/AndroidManifest.xml:21:5-77
 	android:glEsVersion
@@ -161,3 +168,20 @@ ADDED from [com.google.android.gms:play-services-basement:10.2.1] /Users/cameron
 		ADDED from [com.google.android.gms:play-services-basement:10.2.1] /Users/cameronshotter/.android/build-cache/cadec14151df4d07251dbcb27ec43bd7c08c460b/output/AndroidManifest.xml:20:66-119
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:10.2.1] /Users/cameronshotter/.android/build-cache/cadec14151df4d07251dbcb27ec43bd7c08c460b/output/AndroidManifest.xml:20:20-65
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.0] /Users/cameronshotter/.android/build-cache/c079e7d20f88d1fbc8f9d3160f1d52a70a471ccd/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/cameronshotter/.android/build-cache/8da4644e590535cb76d8a21f2432a72e80dcc451/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/cameronshotter/.android/build-cache/2df4f5818dc00bd1657c79a4b184fb7f38c29593/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.0] /Users/cameronshotter/.android/build-cache/eccc01a67573dc53d1584e7e8281e75033b8b312/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.0] /Users/cameronshotter/.android/build-cache/4e0cd23969ce2805c63daef4c78795e1d2e55bb8/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.0] /Users/cameronshotter/.android/build-cache/a357d3529d6e9240a0de8525196a27b7e94b34b5/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.0] /Users/cameronshotter/.android/build-cache/28424723df9a52f997124c40e9c562cbca0cf4d1/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.0] /Users/cameronshotter/.android/build-cache/6746ffa59bb3a7e7d9167a3fa402a3adcaed011c/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.0] /Users/cameronshotter/.android/build-cache/a20d5d2cce4b47ae514efe2c1081a9ea48c6c1bd/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.0] /Users/cameronshotter/.android/build-cache/da55045de8f15df433a6cb04e28ac1e8539f8bc3/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.0] /Users/cameronshotter/.android/build-cache/7ddd61c4daa820b78e371ed30fe94fbffa55fd58/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.0] /Users/cameronshotter/.android/build-cache/c079e7d20f88d1fbc8f9d3160f1d52a70a471ccd/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.0] /Users/cameronshotter/.android/build-cache/c079e7d20f88d1fbc8f9d3160f1d52a70a471ccd/output/AndroidManifest.xml:26:9-47

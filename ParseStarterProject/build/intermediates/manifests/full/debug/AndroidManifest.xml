@@ -29,13 +29,13 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
-    <meta-data
-        android:name="android.support.VERSION"
-        android:value="25.3.0" />
-
     <uses-feature
         android:glEsVersion="0x00020000"
         android:required="true" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.0" />
 
     <application
         android:name="com.parse.starter.StarterApplication"
@@ -74,6 +74,13 @@
         <activity
             android:name="com.parse.starter.YourLocation"
             android:label="@string/title_activity_your_location" />
+        <activity
+            android:name="com.parse.starter.ViewRequests"
+            android:label="@string/title_activity_view_requests"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.parse.starter.ViewRiderLocation"
+            android:label="@string/title_activity_view_rider_location" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

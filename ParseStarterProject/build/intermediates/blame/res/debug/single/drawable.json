@@ -40,6 +40,10 @@
         "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
+        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/design_password_eye.xml",
+        "source": "/Users/cameronshotter/.android/build-cache/c079e7d20f88d1fbc8f9d3160f1d52a70a471ccd/output/res/drawable/design_password_eye.xml"
+    },
+    {
         "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
         "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/drawable/abc_ic_clear_material.xml"
     },
@@ -92,12 +96,20 @@
         "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/drawable/abc_ratingbar_material.xml"
     },
     {
+        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
+        "source": "/Users/cameronshotter/.android/build-cache/c079e7d20f88d1fbc8f9d3160f1d52a70a471ccd/output/res/drawable/navigation_empty_icon.xml"
+    },
+    {
         "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
         "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/drawable/notification_icon_background.xml"
     },
     {
         "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
         "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
+        "source": "/Users/cameronshotter/.android/build-cache/c079e7d20f88d1fbc8f9d3160f1d52a70a471ccd/output/res/drawable/design_fab_background.xml"
     },
     {
         "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_disabled.xml",
@@ -122,6 +134,10 @@
     {
         "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
         "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/design_bottom_navigation_item_background.xml",
+        "source": "/Users/cameronshotter/.android/build-cache/c079e7d20f88d1fbc8f9d3160f1d52a70a471ccd/output/res/drawable/design_bottom_navigation_item_background.xml"
     },
     {
         "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
@@ -182,6 +198,10 @@
     {
         "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
         "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
+        "source": "/Users/cameronshotter/.android/build-cache/c079e7d20f88d1fbc8f9d3160f1d52a70a471ccd/output/res/drawable/design_snackbar_background.xml"
     },
     {
         "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",

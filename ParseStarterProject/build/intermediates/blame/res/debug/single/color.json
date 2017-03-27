@@ -1,35 +1,15 @@
 [
     {
-        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
-        "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/color/abc_tint_edittext.xml"
+        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
+        "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/color/abc_tint_spinner.xml"
     },
     {
         "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
         "source": "/Users/cameronshotter/.android/build-cache/07257b94b7c60998e283866fc15b71b538ea8c11/output/res/color/common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
-        "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/color/abc_tint_spinner.xml"
-    },
-    {
-        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
-        "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/color/switch_thumb_material_light.xml"
-    },
-    {
         "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/color/common_google_signin_btn_tint.xml",
         "source": "/Users/cameronshotter/.android/build-cache/07257b94b7c60998e283866fc15b71b538ea8c11/output/res/color/common_google_signin_btn_tint.xml"
-    },
-    {
-        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
-        "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/color/abc_tint_seek_thumb.xml"
-    },
-    {
-        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
-        "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/color/abc_search_url_text.xml"
-    },
-    {
-        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
-        "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/color/abc_secondary_text_material_dark.xml"
     },
     {
         "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
@@ -44,6 +24,46 @@
         "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/color/abc_tint_switch_track.xml"
     },
     {
+        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
+        "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/color/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/color/design_error.xml",
+        "source": "/Users/cameronshotter/.android/build-cache/c079e7d20f88d1fbc8f9d3160f1d52a70a471ccd/output/res/color/design_error.xml"
+    },
+    {
+        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
+        "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/color/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
+        "source": "/Users/cameronshotter/.android/build-cache/c079e7d20f88d1fbc8f9d3160f1d52a70a471ccd/output/res/color/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
+        "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/color/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
+        "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/color/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
         "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
         "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/color/abc_primary_text_disable_only_material_dark.xml"
     },
@@ -54,14 +74,6 @@
     {
         "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
         "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/color/abc_primary_text_disable_only_material_light.xml"
-    },
-    {
-        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
-        "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/color/abc_tint_default.xml"
-    },
-    {
-        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
-        "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/color/abc_tint_btn_checkable.xml"
     },
     {
         "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
@@ -80,15 +92,11 @@
         "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/color/switch_thumb_material_dark.xml"
     },
     {
-        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
-        "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/color/abc_secondary_text_material_light.xml"
-    },
-    {
         "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
         "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/color/abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
-        "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/color/abc_hint_foreground_material_dark.xml"
+        "merged": "/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/color/abc_secondary_text_material_light.xml"
     }
 ]

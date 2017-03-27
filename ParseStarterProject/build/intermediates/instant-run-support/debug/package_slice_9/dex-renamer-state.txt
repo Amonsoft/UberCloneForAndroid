@@ -1,4 +1,4 @@
-#Mon Mar 27 23:36:44 NZDT 2017
+#Tue Mar 28 01:44:53 NZDT 2017
 base.0=/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9
 renamed.0=classes.dex
 file.0=/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex
