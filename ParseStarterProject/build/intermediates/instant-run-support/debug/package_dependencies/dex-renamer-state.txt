@@ -1,0 +1,19 @@
+#Mon Mar 27 10:56:31 NZDT 2017
+renamed.5=classes2.dex
+renamed.4=classes6.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes.dex
+renamed.0=classes5.dex
+base.5=/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/classes_62cdae66d9690a194e9d700f848202e9bdd9e7c3
+base.4=/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.2.0_172ee25acb2f86ff6f064866e80c5ef21b86a8c9
+base.3=/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.2.0_5c0e75b1eab32eaee01d4a35efc329c35cd579cb
+base.2=/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/classes_97c79fe31e6cb52b3817acae534828e659e9b896
+base.1=/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_3741503dc2cb8dee0abd80562cfdcda4ed0a09fe
+base.0=/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/parse-android-1.13.0_4731cc6bcb51f295eafe0945b592286e4b60b1ab
+file.5=/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/classes_62cdae66d9690a194e9d700f848202e9bdd9e7c3/classes.dex
+file.4=/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.2.0_172ee25acb2f86ff6f064866e80c5ef21b86a8c9/classes.dex
+file.3=/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.2.0_5c0e75b1eab32eaee01d4a35efc329c35cd579cb/classes.dex
+file.2=/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/classes_97c79fe31e6cb52b3817acae534828e659e9b896/classes.dex
+file.1=/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_3741503dc2cb8dee0abd80562cfdcda4ed0a09fe/classes.dex
+file.0=/Users/cameronshotter/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/parse-android-1.13.0_4731cc6bcb51f295eafe0945b592286e4b60b1ab/classes.dex
