@@ -9,17 +9,17 @@
                     "startOffset": 55,
                     "endLine": 6,
                     "endColumn": 13,
-                    "endOffset": 325
+                    "endOffset": 327
                 },
                 "from": {
-                    "file": "/Users/cameronshotter/.android/build-cache/8665b6fe5f56903faa650a42b895fac00f7ce6ff/output/res/values-hdpi/values-hdpi.xml",
+                    "file": "/Users/cameronshotter/.android/build-cache/a897f11dad62205e21fab35a3e85136f18275371/output/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 297,
-                        "endLine": 8,
+                        "startOffset": 55,
+                        "endLine": 6,
                         "endColumn": 13,
-                        "endOffset": 567
+                        "endOffset": 327
                     }
                 }
             }

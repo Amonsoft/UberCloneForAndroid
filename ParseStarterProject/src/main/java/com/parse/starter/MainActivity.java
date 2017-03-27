@@ -8,6 +8,7 @@
  */
 package com.parse.starter;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -45,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
             public void done(ParseException e) {
                 if (e == null) {
 
-                    Log.i("MyApp", "signed up");
+                    redirectUser();
 
                 }
             }
@@ -72,9 +73,9 @@ public class MainActivity extends AppCompatActivity {
             });
 
         } else {
-            
+
             if(currentUser.get("riderOrDriver") != null) {
-                Log.d("MyApp", "Redirect User");
+                redirectUser();
             }
 
         }
@@ -82,6 +83,17 @@ public class MainActivity extends AppCompatActivity {
 
     public void hideActionBar() {
         getSupportActionBar().hide();
+    }
+
+    public void redirectUser() {
+
+        if (ParseUser.getCurrentUser().get("riderOrDriver").equals("rider")) {
+
+            Intent intent = new Intent(getApplicationContext(), YourLocation.class);
+            startActivity(intent);
+
+        }
+
     }
 
     @Override
