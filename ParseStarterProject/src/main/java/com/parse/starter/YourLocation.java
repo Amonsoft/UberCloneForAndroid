@@ -10,6 +10,7 @@ import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.util.Log;
@@ -36,6 +37,11 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Locale;
 
+
+/**
+ * A google maps class which allows the user to request a ride and will eventually show if a driver
+ * has acdepted their request, and how far away they are.
+ */
 public class YourLocation extends FragmentActivity implements OnMapReadyCallback, LocationListener {
 
     private GoogleMap mMap;
@@ -49,7 +55,20 @@ public class YourLocation extends FragmentActivity implements OnMapReadyCallback
     TextView infoTextView;
     Button requestUberButton;
     Boolean requestActive = false;
+    String driverUsername = "";
 
+    ParseGeoPoint driverLocation = new ParseGeoPoint(0, 0);
+
+    Handler handler = new Handler();
+
+
+    /**
+     * Very similar to onCreate method in ViewRequests class.
+     * Accesses device location services and retrieves current or last known location data if
+     * permissions are given.
+     * @param savedInstanceState Non-persistant data which is saved and passed to onCreate in
+     *                           instances such as orientation change
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -74,7 +93,15 @@ public class YourLocation extends FragmentActivity implements OnMapReadyCallback
 
     }
 
-    public void updateUserLocation(Location location) {
+
+    /**
+     * Updates latitude and longitude of device.
+     * Updates google maps marker and camera.
+     * If there is no active request by the user then
+     *
+     * @param location The current device location
+     */
+    public void updateUserLocation(final Location location) {
 
         lat = location.getLatitude();
         lng = location.getLongitude();
@@ -82,7 +109,78 @@ public class YourLocation extends FragmentActivity implements OnMapReadyCallback
         mMap.addMarker(new MarkerOptions().position(new LatLng(lat, lng)).title("Your location"));
         mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(lat, lng), 10));
 
+
+
+        if (!requestActive) {
+
+            ParseQuery<ParseObject> query = new ParseQuery<>("Requests");
+
+            query.whereEqualTo("riderUsername", ParseUser.getCurrentUser().getUsername());
+
+            query.findInBackground(new FindCallback<ParseObject>() {
+                @Override
+                public void done(List<ParseObject> objects, ParseException e) {
+
+                    if (e == null) {
+
+                        if (objects.size() > 0) {
+
+                            for (ParseObject object : objects) {
+
+                                requestActive = true;
+                                infoTextView.setText("Finding Uber driver...");
+                                requestUberButton.setText("Cancel Uber");
+
+                                if (object.get("driverUsername") != null) {
+
+                                    driverUsername = object.getString("driverUsername");
+                                    infoTextView.setText("Driver is on their way");
+
+                                    Log.i("AppInfo", driverUsername);
+
+                                }
+
+                            }
+
+                        }
+
+                    }
+
+                }
+            });
+
+
+
+        }
+
         if (requestActive) {
+
+            if (!driverUsername.equals("")) {
+
+                ParseQuery<ParseUser> userQuery = ParseUser.getQuery();
+                userQuery.whereEqualTo("username", driverUsername);
+                userQuery.findInBackground(new FindCallback<ParseUser>() {
+                    @Override
+                    public void done(List<ParseUser> objects, ParseException e) {
+                        if (e == null) {
+                            if (objects.size() > 0) {
+
+                                for (ParseUser driver : objects) {
+
+                                    driverLocation = driver.getParseGeoPoint("location");
+
+                                }
+
+                            }
+                        }
+                    }
+                });
+
+                if (driverLocation.getLatitude() != 0 && driverLocation.getLongitude() != 0) {
+                    Log.i("AppInfo", driverLocation.toString());
+                }
+
+            }
 
             final ParseGeoPoint userLocation = new ParseGeoPoint(lat, lng);
 
@@ -114,6 +212,13 @@ public class YourLocation extends FragmentActivity implements OnMapReadyCallback
 
         }
 
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                updateUserLocation(location);
+            }
+        }, 2000);
+
     }
 
 
@@ -121,13 +226,8 @@ public class YourLocation extends FragmentActivity implements OnMapReadyCallback
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
+        updateUserLocation(location);
 
-        if (location == null) {
-            updateUserLocation(location);
-
-        } else {
-            onLocationChanged(location);
-        }
     }
 
     @Override
@@ -176,6 +276,10 @@ public class YourLocation extends FragmentActivity implements OnMapReadyCallback
 
     }
 
+    /**
+     * An as unused method which takes the users latitude and longitude and returns the closest house
+     * address
+     */
     public void getAddress() {
 
         Geocoder geocoder = new Geocoder(getApplicationContext(), Locale.getDefault());
@@ -199,6 +303,12 @@ public class YourLocation extends FragmentActivity implements OnMapReadyCallback
     }
 
 
+    /**
+     * If the user hasn't made an actice ride reequest then a new request is put into the parse database
+     * from the current user, it will include their location data too.
+     * If there is am active request then it will be deleted from the database and cancelled.
+     * @param view Responsible for drawing and event handling
+     */
     public void requestUber(View view) {
 
         if (!requestActive) {

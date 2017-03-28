@@ -28,6 +28,11 @@ import com.parse.SaveCallback;
 import java.util.ArrayList;
 import java.util.List;
 
+
+/**
+ * A google maps class which shows the driver a ride request location and allows them to accept or
+ * ignore the request.
+ */
 public class ViewRiderLocation extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
@@ -50,6 +55,17 @@ public class ViewRiderLocation extends FragmentActivity implements OnMapReadyCal
     }
 
 
+    /**
+     * A Google Maps api method that is called when the mapis ready to be used.
+     *Retrieves location data from intent
+     * ViewTreeObserver registers listeners that are aware of global changes in the relativeLayout view.
+     * Automatically resizes and positions the map so that both the rider and driver
+     * markers are displayed.
+     * Caluculates bounds of all markers to be displayed.
+     * Adds markers and animates camera change.
+     * @param googleMap A non-null instance of a GoogleMap associated with the MapFragment or MapView
+     *                  that defines the callback
+     */
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
@@ -87,7 +103,16 @@ public class ViewRiderLocation extends FragmentActivity implements OnMapReadyCal
 
     }
 
-
+    /**
+     * Lets the driver accept an open ride request.
+     * Queries the Requests table in Parse database and returns any rows where riderUsername is equal
+     * to the username of the current request view.
+     * When the query is complete, if there are no exceptions and a row is returned then
+     * the driverUsername is added to that row and the request is no longer retrievable is ViewRequests
+     * The user is redirected to google maps app with the rider request's location data entered and
+     * and ready to be given directions.
+     * @param view
+     */
     public void acceptRequest(View view) {
 
         ParseQuery<ParseObject> query = ParseQuery.getQuery("Requests");
@@ -130,6 +155,10 @@ public class ViewRiderLocation extends FragmentActivity implements OnMapReadyCal
 
     }
 
+    /**
+     * Takes the user back to the ViewRequests screen
+     * @param view
+     */
     public void back(View view) {
 
         Intent i = new Intent(getApplicationContext(), ViewRequests.class);
