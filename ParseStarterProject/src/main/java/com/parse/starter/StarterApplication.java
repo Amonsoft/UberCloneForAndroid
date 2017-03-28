@@ -24,7 +24,7 @@ public class StarterApplication extends Application {
         // Enable Local Datastore.
         Parse.enableLocalDatastore(this);
 
-        // Add your initialization code here
+        // Application unique debug config keys for connecting to the parse database on heroku
         Parse.initialize(new Parse.Configuration.Builder(getApplicationContext())
                 .applicationId("uberclone392j2oii2oi2308")
                 .clientKey(null)
@@ -32,7 +32,7 @@ public class StarterApplication extends Application {
                 .build()
         );
 
-
+        // Allows the Parse database to create anonymous users without the need for a sign up system
         ParseUser.enableAutomaticUser();
         ParseACL defaultACL = new ParseACL();
         // Optionally enable public read access.

@@ -87,7 +87,10 @@ public class ViewRiderLocation extends FragmentActivity implements OnMapReadyCal
 
     }
 
-
+    /**
+     *
+     * @param view
+     */
     public void acceptRequest(View view) {
 
         ParseQuery<ParseObject> query = ParseQuery.getQuery("Requests");
@@ -130,6 +133,10 @@ public class ViewRiderLocation extends FragmentActivity implements OnMapReadyCal
 
     }
 
+    /**
+     * Takes the user back to the ViewRequests screen
+     * @param view
+     */
     public void back(View view) {
 
         Intent i = new Intent(getApplicationContext(), ViewRequests.class);

@@ -24,11 +24,22 @@ import com.parse.ParseException;
 import com.parse.ParseUser;
 import com.parse.SaveCallback;
 
+/**
+ * This application uses the parseplatform android api for database storage
+ * http://parseplatform.org/docs/android/guide/
+ */
+
 
 public class MainActivity extends AppCompatActivity {
 
     Switch riderOrDriverSwitch;
 
+
+    /**
+     * Selects whether the user is a rider or a driver based on riderOrDriverSwitch position.
+     * It then calls the getCurrentUser method and saves "rider" or "driver" to riderOrDriver column in the database.
+     * @param view Responsible for drawing and event handling.
+     */
     public void getStarted(View view) {
 
         String riderOrDriver = "rider";
@@ -54,8 +65,14 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * When ParseUser.logOut() is uncommented it logs out the currently logged in user on app start.
+     * If there is no currently logged in user checkCurrentUser creates a new anonymous user in the database and
+     * slogs them in.
+     * If there is a currently logged in user checkCurrentUser calls redirectUser method.
+     */
     public void checkCurrentUser() {
-//        ParseUser.logOut();
+        ParseUser.logOut();
 
         ParseUser currentUser = ParseUser.getCurrentUser();
 
@@ -81,10 +98,18 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+
     public void hideActionBar() {
         getSupportActionBar().hide();
     }
 
+    /**
+     * Checks the database for the currentUser's riderOrDriver state.
+     * If currentUser is a rider then a new intent (an abstract description of an action) is created
+     * which changes the current context to YourLocation.
+     * If currentUser is a driver then a new intent is created which changes the current context to
+     * ViewRequests.
+     */
     public void redirectUser() {
 
         if (ParseUser.getCurrentUser().get("riderOrDriver").equals("rider")) {
@@ -101,6 +126,13 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * A lifecycle method that is called on initial loading of the application.
+     * Is currently set to assign the currentUser as a rider on app initialisation, this is for convenient
+     * testing purposes
+     * @param savedInstanceState Non-persistant data which is saved and passed to onCreate in
+     *                           instances such as orientation change
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -110,6 +142,9 @@ public class MainActivity extends AppCompatActivity {
 
         riderOrDriverSwitch = (Switch)findViewById(R.id.riderOrDriverSwitch);
 
+        /**
+         * ParseAnalytics allow tracking of events to and from the database
+         */
         ParseAnalytics.trackAppOpenedInBackground(getIntent());
 
         hideActionBar();
@@ -118,6 +153,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /**
+     *
+     * @param menu
+     * @return
+     */
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -125,6 +165,11 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
+    /**
+     *
+     * @param item
+     * @return
+     */
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
