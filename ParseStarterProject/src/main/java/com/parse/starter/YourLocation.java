@@ -97,7 +97,11 @@ public class YourLocation extends FragmentActivity implements OnMapReadyCallback
     /**
      * Updates latitude and longitude of device.
      * Updates google maps marker and camera.
-     * If there is no active request by the user then
+     * If there is no active request by the user then then the database queries the Requests table
+     * and returns any rows where riderUsername is the same as the current users username.
+     * When the query returns if there are no exceptions and if at least one row is returned then
+     * a request is marked as active. When the active request is accepted by a driver the user is alerted
+     * and told the driver's name and shown their location.
      *
      * @param location The current device location
      */
@@ -212,6 +216,9 @@ public class YourLocation extends FragmentActivity implements OnMapReadyCallback
 
         }
 
+        /*
+          Causes the Runnable in this thread to be run each 2000 milliseconds, updating location.
+         */
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
