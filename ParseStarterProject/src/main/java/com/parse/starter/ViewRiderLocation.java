@@ -58,6 +58,11 @@ public class ViewRiderLocation extends FragmentActivity implements OnMapReadyCal
     /**
      * A Google Maps api method that is called when the mapis ready to be used.
      *Retrieves location data from intent
+     * ViewTreeObserver registers listeners that are aware of global changes in the relativeLayout view.
+     * Automatically resizes and positions the map so that both the rider and driver
+     * markers are displayed.
+     * Caluculates bounds of all markers to be displayed.
+     * Adds markers and animates camera change.
      * @param googleMap A non-null instance of a GoogleMap associated with the MapFragment or MapView
      *                  that defines the callback
      */
@@ -71,13 +76,6 @@ public class ViewRiderLocation extends FragmentActivity implements OnMapReadyCal
         userLng = intent.getDoubleExtra("userLongitude", 0);
 
         RelativeLayout mapLayout = (RelativeLayout)findViewById(R.id.relativeLayout);
-        /**
-         * Registers listeners that are aware of global changes in the relativeLayout view.
-         * Automatically resizes and positions the map so that both the rider and driver
-         * markers are displayed.
-         * Caluculates bounds of all markers to be displayed.
-         * Adds markers and animates camera change.
-         */
         mapLayout.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
             @Override
             public void onGlobalLayout() {

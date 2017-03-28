@@ -56,7 +56,8 @@ public class ViewRequests extends AppCompatActivity implements LocationListener 
      * where gps services were enabled then calls and passes that data to onLocationChanged method.
      * Creates a listener which checks if a listView item has been clicked.
      *
-     * @param savedInstanceState
+     * @param savedInstanceState    Non-persistant data which is saved and passed to onCreate in
+     *                              instances such as orientation change
      */
     @Override
     protected void onCreate(Bundle savedInstanceState) {

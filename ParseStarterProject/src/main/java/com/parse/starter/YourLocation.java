@@ -66,7 +66,8 @@ public class YourLocation extends FragmentActivity implements OnMapReadyCallback
      * Very similar to onCreate method in ViewRequests class.
      * Accesses device location services and retrieves current or last known location data if
      * permissions are given.
-     * @param savedInstanceState
+     * @param savedInstanceState Non-persistant data which is saved and passed to onCreate in
+     *                           instances such as orientation change
      */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -98,7 +99,7 @@ public class YourLocation extends FragmentActivity implements OnMapReadyCallback
      * Updates google maps marker and camera.
      * If there is no active request by the user then
      *
-     * @param location
+     * @param location The current device location
      */
     public void updateUserLocation(final Location location) {
 
@@ -303,8 +304,10 @@ public class YourLocation extends FragmentActivity implements OnMapReadyCallback
 
 
     /**
-     *
-     * @param view
+     * If the user hasn't made an actice ride reequest then a new request is put into the parse database
+     * from the current user, it will include their location data too.
+     * If there is am active request then it will be deleted from the database and cancelled.
+     * @param view Responsible for drawing and event handling
      */
     public void requestUber(View view) {
 
