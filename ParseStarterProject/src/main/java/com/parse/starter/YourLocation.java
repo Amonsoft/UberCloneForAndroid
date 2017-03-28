@@ -40,7 +40,7 @@ import java.util.Locale;
 
 /**
  * A google maps class which allows the user to request a ride and will eventually show if a driver
- * has acdepted their request, and how far away they are.
+ * has accepted their request, and how far away they are.
  */
 public class YourLocation extends FragmentActivity implements OnMapReadyCallback, LocationListener {
 
