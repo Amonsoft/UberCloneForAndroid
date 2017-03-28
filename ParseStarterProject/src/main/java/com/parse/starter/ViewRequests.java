@@ -26,6 +26,10 @@ import com.parse.ParseUser;
 import java.util.ArrayList;
 import java.util.List;
 
+
+/**
+ * A class for the driver to view active ride requests.
+ */
 public class ViewRequests extends AppCompatActivity implements LocationListener {
 
     ListView listView;

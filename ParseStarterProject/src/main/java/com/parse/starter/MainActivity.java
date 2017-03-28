@@ -29,7 +29,9 @@ import com.parse.SaveCallback;
  * http://parseplatform.org/docs/android/guide/
  */
 
-
+/**
+ * Welcome screen for this app where the user can choose if they are a driver or wanting a ride.
+ */
 public class MainActivity extends AppCompatActivity {
 
     Switch riderOrDriverSwitch;

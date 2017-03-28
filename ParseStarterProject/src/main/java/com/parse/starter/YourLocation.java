@@ -37,6 +37,11 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Locale;
 
+
+/**
+ * A google maps class which allows the user to request a ride and will eventually show if a driver
+ * has acdepted their request, and how far away they are.
+ */
 public class YourLocation extends FragmentActivity implements OnMapReadyCallback, LocationListener {
 
     private GoogleMap mMap;
@@ -56,6 +61,13 @@ public class YourLocation extends FragmentActivity implements OnMapReadyCallback
 
     Handler handler = new Handler();
 
+
+    /**
+     * Very similar to onCreate method in ViewRequests class.
+     * Accesses device location services and retrieves current or last known location data if
+     * permissions are given.
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -80,6 +92,14 @@ public class YourLocation extends FragmentActivity implements OnMapReadyCallback
 
     }
 
+
+    /**
+     * Updates latitude and longitude of device.
+     * Updates google maps marker and camera.
+     * If there is no active request by the user then
+     *
+     * @param location
+     */
     public void updateUserLocation(final Location location) {
 
         lat = location.getLatitude();
@@ -255,6 +275,10 @@ public class YourLocation extends FragmentActivity implements OnMapReadyCallback
 
     }
 
+    /**
+     * An as unused method which takes the users latitude and longitude and returns the closest house
+     * address
+     */
     public void getAddress() {
 
         Geocoder geocoder = new Geocoder(getApplicationContext(), Locale.getDefault());
@@ -278,6 +302,10 @@ public class YourLocation extends FragmentActivity implements OnMapReadyCallback
     }
 
 
+    /**
+     *
+     * @param view
+     */
     public void requestUber(View view) {
 
         if (!requestActive) {
